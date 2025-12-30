@@ -93,7 +93,7 @@ If you prefer to set it up yourself:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/whoisadi19/object-detection.git](https://github.com/whoisadi19/object-detection.git)
+    git clone https://github.com/whoisadi19/object-detection.git
     cd object-detection
     ```
 
