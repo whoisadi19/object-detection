@@ -1,0 +1,14 @@
+
+venv/
+__pycache__/
+
+
+dataset/
+dataset_v2/
+
+
+runs/
+*.pt
+
+
+.vscode/

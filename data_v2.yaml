@@ -1,0 +1,8 @@
+path: ./dataset_v2  
+train: images
+val: images
+
+names:
+  0: rectangle
+  1: circle
+  2: triangle    
