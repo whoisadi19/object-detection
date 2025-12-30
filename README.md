@@ -73,6 +73,9 @@ The V2 pipeline solves the problem of low-resolution OCR through specific prepro
 * **Denoising:** A Gaussian blur is applied to smooth out high-frequency static.
 * **Adaptive Thresholding:** The image is converted to binary (black and white) based on local pixel neighborhoods, effectively separating the character from the noisy background.
 * **Morphological Operations:** An "opening" operation is applied to remove remaining small noise artifacts (salt-and-pepper noise) that could be mistaken for punctuation.
+**Here is an example of the final output:**
+
+![Results of the Object Detection and OCR Pipeline](resultshow.png)
 
 ---
 
@@ -80,7 +83,7 @@ The V2 pipeline solves the problem of low-resolution OCR through specific prepro
 
 1. **Clone the repository:**
    ```bash 
-   git clone <https://github.com/whoisadi19/object-detection>
+   git clone https://github.com/whoisadi19/object-detection
 
 2. **Install the required dependencies:**
    ```bash
