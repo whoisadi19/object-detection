@@ -81,12 +81,35 @@ The V2 pipeline solves the problem of low-resolution OCR through specific prepro
 
 ## Installation
 
-1. **Clone the repository:**
-   ```bash 
-   git clone https://github.com/whoisadi19/object-detection
+**Prerequisites:** This project is optimized for **Python 3.11**.
 
-2. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
+### Option 1: Quick Setup (Recommended)
+We have provided automated scripts to set up the virtual environment and install dependencies for you.
+* **Windows:** Double-click `setup_env.bat`.
+* **Linux / Mac:** Run `bash setup_env.sh` in your terminal.
 
-**Note:** This project is optimized for Python 3.11.
+### Option 2: Manual Setup
+If you prefer to set it up yourself:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/whoisadi19/object-detection.git](https://github.com/whoisadi19/object-detection.git)
+    cd object-detection
+    ```
+
+2.  **Create and activate a virtual environment:**
+    * **Windows:**
+        ```bash
+        python -m venv venv
+        venv\Scripts\activate
+        ```
+    * **Linux / Mac:**
+        ```bash
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
