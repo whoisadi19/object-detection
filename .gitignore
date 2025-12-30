@@ -1,15 +1,15 @@
-# Virtual Environment
+
 venv/
 __pycache__/
 
-# Datasets (Too large for git)
+
 dataset/
 dataset_v2/
 runs/
 
-# IDE settings
+
 .vscode/
 
-# Temp files
+
 *.jpg
 *.png

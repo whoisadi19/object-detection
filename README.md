@@ -80,7 +80,7 @@ The V2 pipeline solves the problem of low-resolution OCR through specific prepro
 
 1. **Clone the repository:**
    ```bash 
-   git clone <repository-url>
+   git clone <https://github.com/whoisadi19/object-detection>
 
 2. **Install the required dependencies:**
    ```bash
